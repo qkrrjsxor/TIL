@@ -1,2 +1,6 @@
-# GitHub 입문
-많이 들어봤던 git과 github를 처음으로 배워보았다.
+# TIL REPO
+
+배운 내용을 간단하게 or 자세하게 기록하는 용도
+
+### Commit Convention
+[Category] Title (YYYY.MM.DD)
