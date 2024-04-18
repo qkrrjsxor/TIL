@@ -3,7 +3,7 @@ MyBatis에서는 Mapper XML 파일에 정의된 <insert>, <select>, <update>, <d
 이렇게 일치시키는 이유는 MyBatis가 id 속성 값을 사용하여 XML 파일에 정의된 SQL 쿼리와 인터페이스의 메서드를 매핑하기 때문입니다.
 
 **Ex)**
-다음과 같이 
+다음과 같이 select 쿼리문의 id와 mapping한 interface DAO의 메서드명을 일치시켜야 한다.
 ```xml
 <mapper namespace="com.example.mapper.UserMapper">
     <select id="selectUserById" resultType="com.example.domain.User" parameterType="String">
